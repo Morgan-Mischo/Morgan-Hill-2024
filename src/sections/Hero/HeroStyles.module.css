@@ -1,0 +1,9 @@
+.container {
+    .hero {
+        max-width: 50%; 
+        border-radius: 50%; 
+    }
+    .colorMode {
+        max-width: 30%; 
+    }
+}
