@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import apple_clone from "../../assets/apple_clone.png";
-import apple_clone from "../../assets/apple_clone.png";
 
 function Projects() {
   return (
