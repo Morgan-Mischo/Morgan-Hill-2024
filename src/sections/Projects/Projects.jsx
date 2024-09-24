@@ -1,40 +1,16 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import sickTogether from "../../assets/Sick Together.jpeg";
-import fitbook from "../../assets/Fitbook.jpeg"; 
-import wtfeat from "../../assets/WTF Should I Eat.png"; 
+import apple_clone from "../../assets/apple_clone.png";
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
-      <h1 className="sectionTitle">Projects</h1>
+      <h1 className="sectionTitle">My Latest Project</h1>
       <div className={styles.projectsContainer}>
-        <a href="https://github.com/Morgan-Mischo/personal/tree/master">
-          <img
-            className="hover"
-            src={fitbook}
-            alt="Fitbook Picture"
-          />
-          <h3>Fitbook</h3>
-          <p>Fitness Social Media</p>
-        </a>
-        <a href="https://github.com/sick-together/sick-together">
-          <img
-            className="hover"
-            src={sickTogether}
-            alt="Sick Together Picture"
-          />
-          <h3>Sick Together</h3>
-          <p>Chatroom for Hospital Patients</p>
-        </a>
-        <a href="https://github.com/cowancs4760spring23/group3/tree/main/Ios">
-          <img
-            className="hover"
-            src={wtfeat}
-            alt="WTF Should I Eat? Picture"
-          />
-          <h3>WTF Should I Eat?</h3>
-          <p>Recipe iOS App</p>
+        <a href="https://flourishing-madeleine-346f0b.netlify.app/">
+          <img className="hover" src={apple_clone} alt="Site Picture" />
+          <h3>Apple Clone</h3>
+          <p>Clone of the Apple website using React, Tailwind, and GSap</p>
         </a>
       </div>
     </section>
